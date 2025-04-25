@@ -24,8 +24,8 @@ echo.
 :SEARCH
 echo Directory disponibili:
 echo [0] C:\
-echo [1] %USERPROFILE%\Downloads
-echo [2] %USERPROFILE%\Desktop
+echo [1] %USERPROFILE%\Downloads\
+echo [2] %USERPROFILE%\Desktop\
 echo [3] Fornisci percorso in cui effettuare la ricerca
 echo.
 
@@ -33,11 +33,10 @@ set /p selection=[*] Scegliere un opzione:
 
 set "selectedPath="
 if "%selection%"=="0" set "selectedPath=C:\"
-if "%selection%"=="1" set "selectedPath=%USERPROFILE%\Downloads"
-if "%selection%"=="2" set "selectedPath=%USERPROFILE%\Desktop"
+if "%selection%"=="1" set "selectedPath=%USERPROFILE%\Downloads\"
+if "%selection%"=="2" set "selectedPath=%USERPROFILE%\Desktop\"
 if "%selection%"=="3" (
-    set /p customPath=Inserisci percorso completo: 
-    set "selectedPath=%customPath%"
+    set /p "selectedPath=Inserisci percorso completo: "
 )
 echo.
 
@@ -45,7 +44,7 @@ set /p extension=Inserire estensione file da cercare:
 set /p title=Inserire titolo o parte del titolo da cercare:
 echo.
 
-dir /S /B "%selectedPath%\*%title%*.%extension%"
+dir /S /B "%selectedPath%*%title%*.%extension%"
 echo.
 
 set /p choice=Vuoi effettuare un'altra ricerca? [S/N]: 

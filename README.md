@@ -66,11 +66,11 @@ Directory disponibili:
 
 - Scegliere 0–2 per le directory standard, oppure 3 per un percorso custom.
 
-- Se si seleziona 3, inserire un percorso completo (es. D:\ o C:\Test).
+- Se si seleziona 3, inserire un percorso completo (es. D:\ o C:\Test\).
 
 Successivamente:
 
-- Inserire l’estensione da ricercare (ad es. pdf, docx, xlsx).
+- Inserire l’estensione da ricercare (es. pdf, docx o xlsx).
 
 - Inserire il titolo (o parte di esso); se vuoto, restituisce tutti i file dell’estensione scelta.
 
