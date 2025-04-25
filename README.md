@@ -107,3 +107,9 @@ Attenzione a non includere caratteri speciali nel percorso personalizzato.
 Non è prevista validazione avanzata dell’input; valori errati possono causare malfunzionamenti.
 
 Per segnalare bug o suggerire miglioramenti, utilizzare il sistema di Issues del repository GitHub.
+
+## Licenza
+
+Questo progetto è rilasciato sotto licenza MIT.
+
+Per i dettagli, consultare il file LICENSE.md.
