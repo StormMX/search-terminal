@@ -82,8 +82,6 @@ I risultati verrano mostrati in elenco, completo di percorso, come segue:
 <path>\file_n.pdf
 ```
 
-
-
 ### Interruzione
 
 Al termine verrà chiesto:
