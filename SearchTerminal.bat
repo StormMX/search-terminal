@@ -8,8 +8,8 @@ rem * e un nome contenuto nel titolo del file,           *
 rem * restituisce la lista dei file che corrispondono    *
 rem * ai filtri di ricerca (completi del path completo). *
 rem *                                                    *
-rem * Per favore leggere il file .me prima di avviare il *
-rem * batch.                                             *
+rem * Per favore prendere visione dei file .md           *
+rem * prima di avviare il batch.                         *
 rem *                                                    *
 rem * Autore: StormMX                                    *
 rem * Versione: 1.0                                      *
